@@ -1,4 +1,4 @@
-# 🎲 An otador Cardiotech - Dominó
+# 🎲 Anotador Cardiotech - Dominó
 
 **Aplicación web para llevar el puntaje de partidas de dominó**
 
@@ -206,3 +206,4 @@ Para reportar problemas o sugerencias, crea un [Issue](../../issues) en GitHub.
 ---
 
 **¡Disfruta llevando el puntaje de tus partidas de dominó!** 🎲
+
