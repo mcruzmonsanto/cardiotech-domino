@@ -1,4 +1,4 @@
-# 🎲 An otador Cardiotech - Dominó
+# 🎲 Anotador Cardiotech - Dominó
 
 **Aplicación web para llevar el puntaje de partidas de dominó**
 
