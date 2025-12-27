@@ -1,13 +1,13 @@
 {
     "name": "Cardiotech Domino",
     "short_name": "Cardiotech",
-    "start_url": "/",
+    "start_url": "./index.html",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#D81E28",
     "icons": [
         {
-            "src": "/logo.jpg",
+            "src": "logo.jpg",
             "sizes": "192x192",
             "type": "image/jpeg"
         },
