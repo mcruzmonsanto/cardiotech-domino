@@ -173,7 +173,7 @@ body {
 .history-section {
     background: rgba(255, 255, 255, 0.92);
     backdrop-filter: blur(15px);
-    margin: 0 auto 6px;
+    margin: 0 auto 0;
     padding: 6px 8px;
     border-radius: 16px;
     box-shadow: 0 4px 20px var(--shadow-light);
@@ -182,8 +182,8 @@ body {
     overflow-y: auto;
     overflow-x: hidden;
     min-height: 0;
-    max-height: 18vh;
-    /* Limita altura en móvil - más pequeño */
+    max-height: 15vh;
+    flex-shrink: 0;
 }
 
 .history-header {
@@ -334,28 +334,28 @@ body {
 .calculator-area {
     background: rgba(255, 255, 255, 0.98);
     backdrop-filter: blur(20px);
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    padding: 6px 8px 4px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 5px 8px 2px;
     box-shadow: 0 -5px 30px var(--shadow-medium);
     display: flex;
     flex-direction: column;
-    gap: 4px;
+    gap: 3px;
     max-width: 600px;
     width: calc(100% - 30px);
-    margin: 0 auto;
+    margin: auto auto 0;
 }
 
 /* Pantalla de la calculadora */
 .calc-screen {
     background: linear-gradient(135deg, #f5f7fa 0%, #e4e9f0 100%);
     border-radius: 10px;
-    padding: 6px;
-    font-size: 1.4rem;
+    padding: 5px 8px;
+    font-size: 1.3rem;
     font-weight: 700;
     text-align: right;
     color: var(--brand-black);
-    min-height: 40px;
+    min-height: 35px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -372,21 +372,21 @@ body {
 .assign-buttons {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 5px;
+    gap: 4px;
 }
 
 .btn-assign {
-    padding: 7px 6px;
-    font-size: 0.65rem;
+    padding: 6px 5px;
+    font-size: 0.62rem;
     font-weight: 700;
     border: none;
-    border-radius: 10px;
+    border-radius: 8px;
     cursor: pointer;
     transition: all 0.2s ease;
     text-transform: uppercase;
     letter-spacing: 0.3px;
     line-height: 1.1;
-    box-shadow: 0 4px 12px var(--shadow-medium);
+    box-shadow: 0 3px 10px var(--shadow-medium);
 }
 
 .btn-assign b {
@@ -425,20 +425,20 @@ body {
 .keypad {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 5px;
+    gap: 4px;
 }
 
 .key {
     background: white;
     border: 2px solid #e5e7eb;
     color: var(--brand-black);
-    padding: 10px 6px;
-    font-size: 1.1rem;
+    padding: 9px 5px;
+    font-size: 1.05rem;
     font-weight: 600;
-    border-radius: 10px;
+    border-radius: 8px;
     cursor: pointer;
     transition: all 0.15s ease;
-    box-shadow: 0 2px 8px var(--shadow-light);
+    box-shadow: 0 2px 6px var(--shadow-light);
 }
 
 .key:hover {
